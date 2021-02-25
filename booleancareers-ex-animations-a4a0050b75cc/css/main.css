@@ -69,11 +69,11 @@
     transform: scale(0.5);
 }
 /*esercizio 10*/
-.ex-10-icon{
-    animation: spin 2 linear infinite;
+.ex-10-icon {
+    animation: spin 1s linear infinite;
 }
 @keyframes spin{
-    0% {
-      transform: rotate(365deg);
-    }
+     0% {
+         transform: rotate(360deg);
+     }
 }
