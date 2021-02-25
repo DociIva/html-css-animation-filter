@@ -1,3 +1,9 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /*esercizio 1*/
 .ex-1-square{
     transition: 2s;
@@ -38,6 +44,22 @@
     transform: scale(0.5);
 }
 /*Esercizio 6*/
-.ex-6-img:hover{
+.ex-6-img:hover {
    filter: grayscale(1);
 }
+/*Esercizio 7*/
+.ex-7-img{
+    transition: 2;
+}
+.ex-7-img:hover {
+   filter: grayscale(1) sepia(1);
+}
+/*esercizio 8*/
+.ex-8-img{
+    transition: 1;
+}
+.ex-8-img:hover {
+    filter: grayscale(3) sepia(3);
+    border-radius: 20px; 
+}
+/*esercizio 9*/
