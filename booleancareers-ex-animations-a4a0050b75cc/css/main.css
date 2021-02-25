@@ -68,3 +68,12 @@
     border-radius: 20px;
     transform: scale(0.5);
 }
+/*esercizio 10*/
+.ex-10-icon{
+    animation: spin 2 linear infinite;
+}
+@keyframes spin{
+    0% {
+      transform: rotate(365deg);
+    }
+}
